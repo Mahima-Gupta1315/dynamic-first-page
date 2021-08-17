@@ -1,0 +1,309 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.hero{
+	background: #1d2026;
+	height: 100vh;
+	width: 100%;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	padding: 20px 8%;
+}
+
+nav .menu{
+	width: 25px;
+	margin-right: 20px;
+	cursor:pointer ;
+
+}
+
+nav .logo{
+	width: 130px;
+	cursor: pointer;
+}
+
+nav ul{
+	flex: 1;
+	text-align: right;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 20px;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+button{
+	background: #efefef;
+	height: 30px;
+	width: 60px;
+	border-radius: 20px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	transition: background 0.5s;
+}
+
+button span{
+	display: block;
+	background: #999;
+	height: 26px;
+	width:26px ;
+	border-radius: 50%;
+	margin-left: 2px;
+	transition: background 0.5s, margin-left 0.5s;
+}
+
+.lamp-container {
+	position: absolute;
+	top: -20px;
+	left: 22%;
+	width: 200px;
+
+}
+
+.lamp{
+	width: 80%;
+}
+
+.light{
+	position: absolute;
+	top: 97%;
+	left: 50%;
+	transform: translate(-50%);
+	width: 600px;
+	margin-left: -30px;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+.active{
+	background: green;
+}
+
+.active span{
+	background: white;
+	margin-left: 31px;
+}
+
+.on{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col-2{
+	flex-basis:50%;
+	min-width:300px;
+	padding: 50px 0;
+	margin-left: 600px;
+	
+}
+
+.col-2 h1{
+	font-size: 50px;
+	line-height:60px;
+	
+}
+
+.col-2 p{
+	font-size: 17px;
+	margin-top: 5px;
+	
+}
+
+.btn{
+	display: inline-block;
+	background:#00986f;
+	color: #fff; 
+	padding: 8px 30px;
+	margin:30px 0 0 25px; 
+	border-radius: 30px; 
+	transition:background 0.5s;
+}
+
+.btn:hover{
+	background:#563434;
+}
+.form-container{
+	background: #fff;
+	width: 300px;
+	height: 360px;
+	position: relative;
+	text-align: center;
+	padding: 30px 0;
+	margin: auto;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+	overflow: hidden;
+	border-radius: 14px;
+}
+
+.form-container span{
+	font-weight: bold;
+	padding: 0 10px;
+	color: #555;
+	cursor: pointer;
+	width: 100px;
+	display: inline-block;
+
+}
+
+.form-btn{
+	display: inline-block;
+}
+
+.form-container form{
+	max-width: 300px;
+	padding: 0 20px;
+	position: absolute;
+	top:110px;
+	transition: transform 1s;
+}
+
+form input{
+	width:90%;
+	height: 30px;
+	margin:10px 0;
+	padding: 0 10px;
+	border:1px solid #ccc;
+	border-radius: 5px; 
+}
+
+form .btn{
+	width: 100%;
+	border:none;
+	cursor: pointer;
+	margin: 10px 0;
+}
+
+form .btn:focus{
+	outline: none;
+}
+#LoginForm{
+	left:-400px;
+}
+
+#RegForm{
+	left:0;
+}
+
+form a{
+	font-size: 12px;
+}
+
+#Indicator{
+	width: 60%;
+	border:none;
+	background: #00986f ;
+	height: 3px;
+	margin-top: 8px;
+	transform: translateX(100px);
+	transition: transform 1s; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
