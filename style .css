@@ -103,24 +103,12 @@ button span{
 /*************** Register page ****************/
 
 .col-2{
-	flex-basis:50%;
 	min-width:300px;
 	padding: 50px 0;
 	margin-left: 600px;
 	
 }
 
-.col-2 h1{
-	font-size: 50px;
-	line-height:60px;
-	
-}
-
-.col-2 p{
-	font-size: 17px;
-	margin-top: 5px;
-	
-}
 
 .btn{
 	display: inline-block;
@@ -163,7 +151,7 @@ button span{
 }
 
 .form-container form{
-	max-width: 300px;
+	max-width: 260px;
 	padding: 0 20px;
 	position: absolute;
 	top:110px;
@@ -202,7 +190,7 @@ form a{
 }
 
 #Indicator{
-	width: 60%;
+	width: 70%;
 	border:none;
 	background: #00986f ;
 	height: 3px;
